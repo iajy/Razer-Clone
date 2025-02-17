@@ -96,15 +96,15 @@ ul>li {
 }
 
 #bg-image1 {
-    background-image: url(/Razer/HTML/image/image2.webp);
+    background-image: url(image/image2.webp);
 }
 
 #bg-image2 {
-    background-image: url(/Razer/HTML/image/image3.webp);
+    background-image: url(image/image3.webp);
 }
 
 #bg-image3{
-    background-image: url(/Razer/HTML/image/image4.webp);
+    background-image: url(image/image4.webp);
 }
 .sub-container2{
     height: 75vh;
@@ -131,28 +131,28 @@ ul>li {
     font-size: 18px;
 }
 #bg-image4{
-    background-image: url(/Razer/HTML/image/image5.webp);
+    background-image: url(image/image5.webp);
     border-right: 10px solid #222;
 }
 #bg-image5{
-    background-image: url(/Razer/HTML/image/image6.webp);
+    background-image: url(image/image6.webp);
     
 }
 
 #bg-image6{
-    background-image: url(/Razer/HTML/image/image7.webp);
+    background-image: url(image/image7.webp);
     border-right: 10px solid #222;
 }
 #bg-image7{
-    background-image: url(/Razer/HTML/image/image8.webp);
+    background-image: url(image/image8.webp);
 }
 
 #bg-image8{
-    background-image: url(/Razer/HTML/image/imageNew.webp);
+    background-image: url(image/imageNew.webp);
     border-right: 10px solid #222;
 }
 #bg-image9{
-    background-image: url(/Razer/HTML/image/image9.webp);
+    background-image: url(image/image9.webp);
 }
 .footer{
     grid-column: 1/3;
