@@ -27,12 +27,14 @@
     height: 61px;
     border-bottom: 1px solid #44D62C;
 }
+
 #logo {
     height: 35px;
     width: 35px;
     margin-top: 10px;
 }
-ul {
+
+#navigation-bar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,12 +42,16 @@ ul {
 
 }
 
-ul>li {
+#navigation-bar li {
     display: inline-block;
     color: #bbb;
     margin-left: 32.5px;
     margin-right: 32.5px;
-    
+
+}
+li a{
+    color: #bbb;
+    text-decoration: none;
 }
 
 #header2 {
@@ -57,27 +63,32 @@ ul>li {
     align-items: end;
 
 }
-#text-heading2{
+
+#text-heading2 {
     padding-bottom: 9px;
-    font-size:15px;
-    
+    font-size: 15px;
+
 }
-.text{
-    color:whitesmoke;
-    
+
+.text {
+    color: whitesmoke;
+
 }
-#text1{
+
+#text1 {
     margin-top: 45px;
     font-size: 60px;
     font-weight: 650;
     color: white;
 
 }
-#text2{
+
+#text2 {
     font-size: 30px;
     font-weight: 350;
 }
-#text3{
+
+#text3 {
     font-size: 20px;
 }
 
@@ -88,11 +99,11 @@ ul>li {
     background-size: cover;
     background-position: center;
     border-bottom: 10px solid #222;
-    display:flex;
+    display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
     padding-bottom: 0px;
-    
+
 }
 
 #bg-image1 {
@@ -103,10 +114,11 @@ ul>li {
     background-image: url(image/image3.webp);
 }
 
-#bg-image3{
+#bg-image3 {
     background-image: url(image/image4.webp);
 }
-.sub-container2{
+
+.sub-container2 {
     height: 75vh;
     width: 100%;
     background-size: cover;
@@ -116,68 +128,99 @@ ul>li {
     align-items: center;
     flex-direction: column;
 }
-#container2-text1{
+
+#container2-text1 {
     margin-top: 45px;
     font-size: 40px;
     font-weight: 650;
     color: white;
 
 }
-#container2-text2{
+
+#container2-text2 {
     font-size: 20px;
     font-weight: 350;
 }
-#container2-text3{
+
+#container2-text3 {
     font-size: 18px;
 }
-#bg-image4{
+
+#bg-image4 {
     background-image: url(image/image5.webp);
     border-right: 10px solid #222;
 }
-#bg-image5{
+
+#bg-image5 {
     background-image: url(image/image6.webp);
-    
+
 }
 
-#bg-image6{
+#bg-image6 {
     background-image: url(image/image7.webp);
     border-right: 10px solid #222;
 }
-#bg-image7{
+
+#bg-image7 {
     background-image: url(image/image8.webp);
 }
 
-#bg-image8{
+#bg-image8 {
     background-image: url(image/imageNew.webp);
     border-right: 10px solid #222;
 }
-#bg-image9{
+
+#bg-image9 {
     background-image: url(image/image9.webp);
 }
-.footer{
+
+.footer {
     grid-column: 1/3;
 }
 
-#footer1{
-    background-color:#151515;
+#footer1 {
+    background-color: #161515;
     height: 55vh;
     display: flex;
+    color: #999;
     justify-content: space-around;
     
 }
-table{
-    width: 1000px;
+.footer>ul {
+    list-style: none;
+    padding-top: 20px;
+
+}
+
+.footer ul li {
+    padding: 8px;
+    font-size: 12px;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+#li-first {
+    padding-left: 100px;
+}
+
+.footer-head {
+    list-style: none;
+    color: white;
     font-size: small;
-    
 }
-.column{
-    padding-left: 8px;
-    padding-right: 10px;
-    padding-bottom: 10px;
+.icon{
+   /* color: #bbb; */
+    text-align: center;
 }
-#footer2{
+
+#footer2 {
     background-color: #000000;
     height: 33vh;
 }
-
-
+a:hover{
+    color: white;
+    text-decoration: underline;   
+}
