@@ -49,7 +49,7 @@
     margin-right: 32.5px;
 
 }
-li a{
+a{
     color: #bbb;
     text-decoration: none;
 }
@@ -107,15 +107,15 @@ li a{
 }
 
 #bg-image1 {
-    background-image: url(image/image2.webp);
+    background-image: url(image/razer1.webp);
 }
 
 #bg-image2 {
-    background-image: url(image/image3.webp);
+    background-image: url(image/razer2.webp);
 }
 
 #bg-image3 {
-    background-image: url(image/image4.webp);
+    background-image: url(image/razer3.webp);
 }
 
 .sub-container2 {
@@ -147,80 +147,94 @@ li a{
 }
 
 #bg-image4 {
-    background-image: url(image/image5.webp);
+    background-image: url(image/razer4.webp);
     border-right: 10px solid #222;
 }
 
 #bg-image5 {
-    background-image: url(image/image6.webp);
+    background-image: url(image/razer5.webp);
 
 }
 
 #bg-image6 {
-    background-image: url(image/image7.webp);
+    background-image: url(image/razer6.webp);
     border-right: 10px solid #222;
 }
 
 #bg-image7 {
-    background-image: url(image/image8.webp);
+    background-image: url(image/razer7.webp);
 }
 
 #bg-image8 {
-    background-image: url(image/imageNew.webp);
+    background-image: url(image/razer8.webp);
     border-right: 10px solid #222;
 }
 
 #bg-image9 {
-    background-image: url(image/image9.webp);
+    background-image: url(image/razer9.webp);
 }
 
-.footer {
-    grid-column: 1/3;
+a:hover{
+    color: white;
+    text-decoration: underline;   
 }
-
-#footer1 {
-    background-color: #161515;
-    height: 55vh;
-    display: flex;
-    color: #999;
-    justify-content: space-around;
+.footer{
+    height: 430px;
+    width: 100%;
+    background-color: #0f0f0f;
+    padding-left: 150px;
+    padding-top: 10px;
     
 }
-.footer>ul {
-    list-style: none;
-    padding-top: 20px;
-
-}
-
-.footer ul li {
-    padding: 8px;
-    font-size: 12px;
+.footer-contents{
+    color:white;
+    display :inline-flex;
+    flex-direction: column;
+    font-size: 11px;
     font-family: "Roboto", serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
     font-variation-settings:"wdth" 100;
 }
-
-#li-first {
-    padding-left: 100px;
+.footer-contents a,h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 80px;
 }
 
-.footer-head {
-    list-style: none;
-    color: white;
-    font-size: small;
+.footer2{
+    height: 250px;
+    width: 100%;
+    background-color: black;
 }
-.icon{
-   /* color: #bbb; */
-    text-align: center;
+#footer-icons a,h4{
+    padding-top: 3px;
+    padding-bottom: 2px;
 }
 
-#footer2 {
-    background-color: #000000;
-    height: 33vh;
+#icon{
+    font-size: 16px;
+    padding: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    /* border: 1px solid white;
+    border-radius: 50%; */
+    margin-left: 10px;
+    margin-top: 1px;
 }
-a:hover{
-    color: white;
-    text-decoration: underline;   
+.under-hr-line{
+    color:#bbb;
+    font-size: 11px;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    margin-top: 13px;
+}
+
+.under-hr-line span a{
+    padding-right: 50px;
+    padding-left: 30px;
 }
