@@ -23,7 +23,7 @@
 
 #header1 {
     position: fixed;
-    width: 100%;
+    width: 100vw;
     color: white;
     background-color: black;
     height: 61px;
@@ -233,6 +233,12 @@ h4 {
     margin-top: 1px;
 }
 
+hr {
+    border: color #999;
+    border-bottom: 0.1px;
+    width: 1200px;
+}
+
 .under-hr-line {
     color: #bbb;
     font-size: 11px;
@@ -247,4 +253,168 @@ h4 {
 .under-hr-line span a {
     padding-right: 50px;
     padding-left: 30px;
+}
+
+@media(max-width:480px) {
+    .main-container {
+        display: grid;
+        height: auto;
+        width: auto;
+        grid-template-columns: 1fr;
+
+    }
+
+    .sub-container1 {
+        grid-column: 1/2;
+        height: 77.5vh;
+    }
+
+    .sub-container2 {
+        grid-column: 1/2;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+
+    #bg-image1 {
+        background-image: url(./image/1mobile.webp);
+    }
+
+    #bg-image2 {
+        background-image: url(./image/2mobile.webp);
+    }
+
+    #bg-image3 {
+        background-image: url(./image/3mobile.webp);
+    }
+
+    #bg-image4 {
+        background-image: url(./image/mobile1.webp);
+    }
+
+    #bg-image5 {
+        background-image: url(./image/mobile2.webp);
+    }
+
+    #bg-image6 {
+        background-image: url(./image/mobile3.webp);
+    }
+
+    #bg-image7 {
+        background-image: url(./image/mobile4.webp);
+    }
+
+    #bg-image8 {
+        background-image: url(./image/mobile5.webp);
+    }
+
+    #bg-image9 {
+        background-image: url(./image/mobile6.webp);
+    }
+    
+    #header1{
+      height: 50px;  
+    }
+
+    #header2 {
+        height: 130px;
+
+    }
+
+    #text-heading2 {
+        
+        content: "Tax time Specials: Cash in that sweet tax refund and score a Monster Hunter Wilds item pack with selected products.";
+        line-height: 1.4;
+        font-size: 14px;
+        text-align:center;
+        padding-bottom: 10px;
+        font-family: "Roboto", serif;
+        font-optical-sizing: auto;
+        font-weight:350;
+        font-style: normal;
+        font-variation-settings: "wdth" 100;
+
+    }
+
+    #bg-image4,
+    #bg-image6,
+    #bg-image8 {
+        border-right: none;
+    }
+
+    .text {
+        color: whitesmoke;
+    }
+
+    #text1 {
+        text-align: center;
+        margin-top: 25px;
+        font-size: 40px;
+        font-weight: 650;
+        color: white;
+    }
+
+    #text2 {
+        font-size: 25px;
+        font-weight: 350;
+    }
+
+    #text3 {
+        font-size: 15px;
+    }
+
+    #navigation-bar li{
+        display: none;
+      }
+      #navigation-bar li:nth-child(1){
+        display: list-item;
+        /* padding-left: 180px; */
+        list-style: none;
+        align-items: center;
+      }
+      #navigation-bar li:nth-child(10),
+      #navigation-bar li:nth-child(11){
+        display: list-item;
+        list-style: none;
+      }
+      li:first-child::before {
+        content:url(./image/menu1.svg); /* Replace with any icon */
+        margin-right: 130px;
+      }
+      #logo{
+        margin-top: 5px;
+        margin-right: 10px;
+      }
+
+
+    hr {
+        display: none;
+    }
+
+    .footer-contents {
+        display: none;
+    }
+
+    .under-hr-line {
+        display: none;
+    }
+
+    #container2-text1 {
+        margin-top: 45px;
+        font-size: 20px;
+        font-weight: 650;
+        color: white;
+
+    }
+
+    #container2-text2 {
+        font-size: 10px;
+        font-weight: 350;
+    }
+
+    #container2-text3 {
+        font-size: 9px;
+    }
+
 }
